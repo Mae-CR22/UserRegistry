@@ -93,7 +93,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"UserRegistry.sol": "UserRegistry"
+			"User_Registry1.sol": "UserRegistry"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -107,12 +107,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"UserRegistry.sol": {
-			"keccak256": "0xeca88709d3de199cc3a0c18fa51ed91989c41924e5c22f8963181435e0b3f227",
+		"User_Registry1.sol": {
+			"keccak256": "0x9fb92868fa9638beb27433063f944017e26be037e0537af40f7b1c47f27ba34d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a67aa26c296bb39c63192d8ec04868954d74fcbe1f35a56155a21cfbac7fdf31",
-				"dweb:/ipfs/QmY2Cyze4QbfojTubS9d5eXPALZ1Dx1WLkVfhk6PzeUTGi"
+				"bzz-raw://0fd405c86c68c246371fe410c6766b807a8bbc03d197e415b4803a6f83585d59",
+				"dweb:/ipfs/QmeQDFLGZ6MMPZXAzjv1H1oFRDwXMqakkfAiVQd555KA9i"
 			]
 		}
 	},
