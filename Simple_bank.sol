@@ -12,7 +12,12 @@ constructor() {
 }
   //Funcion para depositar ETH
 
-  function name(params) {
-    code
-  }
+  function deposit() public payable {
+    balances[msg.sender] += msg.value; //Incrementa el balance del usuario
+} 
+// Funcion para consultar el balance del usuario
+function getBalance() public view returns (uint256) {
+    return balances[msg.sender]; //Devuelve el balance del usuario que llama
+}
+
 }
