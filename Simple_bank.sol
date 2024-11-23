@@ -26,5 +26,10 @@ _;
 function getBalance() public view returns (uint256) {
     return balances[msg.sender]; //Devuelve el balance del usuario que llama
 }
-
+//Funcion para retirar ETH del Balance
+function withdraw(uint256 _amount) public {
+  require(balances[msg.sender] >= _amount, "No tienes sufiectes fondos");
+balances[msg.sender] -= _amount; //Reduce el balance del usuario
+payable(msg.sender).transfer(_amount); //EnVia ETH al usuario
+}
 }
