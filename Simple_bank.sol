@@ -10,7 +10,14 @@ contract SimpleBank {
 constructor() {
     owner = msg.sender; //define al propietario del contrato
 }
-  //Funcion para depositar ETH
+
+// Modificador para restrimgir el acceso solo al propietario
+modifier onlyOwner() {
+require(msg.sender == owner, "no estas autorizado");
+_;
+}
+
+  //Funcion para depositar ETH 
 
   function deposit() public payable {
     balances[msg.sender] += msg.value; //Incrementa el balance del usuario
