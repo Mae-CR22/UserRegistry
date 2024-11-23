@@ -32,4 +32,8 @@ function withdraw(uint256 _amount) public {
 balances[msg.sender] -= _amount; //Reduce el balance del usuario
 payable(msg.sender).transfer(_amount); //EnVia ETH al usuario
 }
+// Funcion para consultar el balance total del contrato (solo propietario).
+function getContracBalance()public view onlyOwner returns (uint256) {
+    return address(this).balance; //Devuelve el balance total del contrato.
+    }
 }

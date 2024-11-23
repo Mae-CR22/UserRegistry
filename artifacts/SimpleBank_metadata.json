@@ -51,6 +51,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getContracBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "owner",
 				"outputs": [
 					{
@@ -60,6 +73,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -91,11 +117,11 @@
 	},
 	"sources": {
 		"Simple_bank.sol": {
-			"keccak256": "0x4f4cc40660a26b338708db1aa87ebdfcbfcc55d68c1a8fbf56ca2de715b667db",
+			"keccak256": "0x2e7007ee5f1b078082c7c769aaa4484b16aa41f5754731ec2e4aabd4ddf8ccbf",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4a1120f5278504cf212fce2b5eaa38f2d8551141d6401b2304f0bc9043201437",
-				"dweb:/ipfs/QmebvGiT3Ku1Gh4UPY3HsCfBs4t8sRCre5G5u23484mQm1"
+				"bzz-raw://19973b28d90216bef57d0525359527582156aa00761664640b350a96e04bfd23",
+				"dweb:/ipfs/QmY8ExxnW5M4Z23MXA3ufhboxeD1x8VQrUZEwpNfsw5dWo"
 			]
 		}
 	},
