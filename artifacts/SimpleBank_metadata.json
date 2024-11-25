@@ -51,7 +51,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getContracBalance",
+				"name": "getContractBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -73,6 +73,24 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -117,11 +135,11 @@
 	},
 	"sources": {
 		"Simple_bank.sol": {
-			"keccak256": "0x2e7007ee5f1b078082c7c769aaa4484b16aa41f5754731ec2e4aabd4ddf8ccbf",
+			"keccak256": "0xd99cf10db8700c9fd37509e665218bdb9db0c689c096d1a3674289693d9e01cb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://19973b28d90216bef57d0525359527582156aa00761664640b350a96e04bfd23",
-				"dweb:/ipfs/QmY8ExxnW5M4Z23MXA3ufhboxeD1x8VQrUZEwpNfsw5dWo"
+				"bzz-raw://f2f6d94fc9d0fd1fbdbac647741a7842af7e1d394375899c491648c1fe756048",
+				"dweb:/ipfs/QmZVeMj8UsPKd8uCzxhpxAYW9NdvYBEThpXBzx75D8p1eo"
 			]
 		}
 	},
